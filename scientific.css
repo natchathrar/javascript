@@ -1,0 +1,64 @@
+body
+{
+background-color:tan;
+} 
+.box
+{
+background-color:#3d4543;
+height:550px;
+width:460px;
+border-radius:10px;
+position:relative;
+top:50px;
+}
+.display
+{
+background-color:#222;
+width:400px;
+position:relative;
+left:15px;
+top:45px;
+height:60px;
+}
+.display input
+{
+position:relative;
+left:2px;
+top:2px;
+height:55px;
+color:black;
+background-color:#b9b96d;
+font-size:37px;
+text-align:right;
+}
+.keys
+{
+position:relative;
+top:78px;
+}
+.button
+{
+width:60px;
+height:50px;
+border:none;
+border-radius:8px;
+margin-left:20px;
+cursor:pointer;
+border-top:2px solid transparent;
+border-bottom:rgb(187, 164, 164) 2px solid;
+background-color: rgb(14, 10, 10);
+color: white;
+font-size: 25px;
+}
+ .button.pink
+{
+color:black;
+background-color:#ff4561;
+border-bottom:black 2px solid;
+}
+
+.button:active
+{
+border-top:rgb(154, 123, 123) 1px solid;
+border-bottom:#9c9193 1px solid;
+}

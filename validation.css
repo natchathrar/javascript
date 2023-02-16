@@ -1,0 +1,45 @@
+body
+{
+    background-image: linear-gradient(to right,blue,rgb(255, 0, 123),violet);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+}
+.contain
+{
+    width: 500px;
+    border-radius: 15px;
+    background-color: rgb(20, 199, 139);
+}
+small{
+    color: red;
+}
+label{
+    font-size: large;
+    /* font-weight: bold; */
+}
+tbody
+{
+  
+    background-color: aquamarine;
+
+}
+table,th,td{
+    border: 2px solid white;
+    border-collapse: collapse;
+    margin-bottom: 50px;
+}
+th
+{
+    background-color: black;
+    color: white;
+}
+th,td
+{
+    height: 10%;
+}
+table{
+    width: 100%;
+    padding: 15px;
+    height: 10%;
+}
